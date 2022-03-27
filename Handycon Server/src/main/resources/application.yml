@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: ${mysql_url}
+    username: ${mysql_username}
+    password: ${mysql_password}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        default_batch_fetch_size: 100
+    database: mysql
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  profiles:
+    active: prod
+
+logging.level:
+  org.hibernate.SQL: debug
+  #org.hibernate.type: trace
