@@ -4,7 +4,7 @@
 아직까지 세상에는 우리가 당연하게 여기는 권리를 보장 받지 못하는 아이들이 많습니다.<br>
 우리로써는 당연히 보장 받는 양질의 교육은 고사하고 기본적인 교육 마저도 받지 못하는 아이들이 존재합니다.<br>
 
-그래서 이러한 현실에 조금이나마 도움이 되고자 직접 chari-o 어플을 만들게 되었습니다.
+그래서 이러한 현실에 조금이나마 도움이 되고자 직접 handycon 어플을 만들게 되었습니다.
 
 
 ## 프로젝트 목표
@@ -29,9 +29,8 @@
 2. 기부 가능 기관 정보 제공
 <img src="https://user-images.githubusercontent.com/75655613/152624362-12a70dde-4c24-4f28-88e3-3c9bf40aadaf.jpeg" height=400 width=250>
 
+## [Demo Video] (https://www.youtube.com/watch?v=sT0wWuW2aR8)
 
-## 발표 자료
-[해커톤 발표.pdf](https://github.com/gdsckoreahackathon2022/12_Chari-o/files/8007134/default.pdf)
 
 # Contributors
 - [Donghyun Shin] (https://github.com/Canihelpme)
