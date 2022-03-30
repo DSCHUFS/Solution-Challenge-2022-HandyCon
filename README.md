@@ -29,8 +29,8 @@ Gather news from donation organizations in one place to make it easier for peopl
 |<img src="https://user-images.githubusercontent.com/75655613/160757506-c57f6d96-8f86-45fa-8e47-10ce03cb2363.jpeg" height=400>|<img src="https://user-images.githubusercontent.com/75655613/160758267-68d73b46-f143-4fcc-8dcd-12e1de7df740.jpeg" height=400>|<img src="https://user-images.githubusercontent.com/75655613/160758289-d527f707-64fa-487d-9731-bf45235949bf.jpeg" height=400>|
 
 
-## [Demo Video] 
-[![미리보기](https://img.youtube.com/vi/sT0wWuW2aR8/0.jpg)](https://youtu.be/sT0wWuW2aR8?t=3)
+## Demo Video
+[![Preview](https://img.youtube.com/vi/sT0wWuW2aR8/0.jpg)](https://youtu.be/sT0wWuW2aR8?t=3)
 
 
 
