@@ -1,36 +1,37 @@
 # Handycon
 ## Donate to charity
 
-There are still many children in the world who are not guaranteed the rights we take for granted.<br>
-Of course, there are children who do not receive even basic education, let alone quality education that is guaranteed.<br>
-
-So I started to create my own chari-o application to help with this reality.
+We have been trying to figure out the solutions for SDGs, and started to focus on the organizations trying their best towards these goals. Unfortunately, these organizations were having hard time managing the programs they offer due to lack of budget since covid-19. <br> <br> 
+So we created our own Handycon, where you can donate to charity organizations according to your interest in sustainable development goals. 
 
 
 ## Project goal
 
-Gather news from donation organizations in one place and make it easier for people to access the news. 
-Through this, encouraging people to participate in donations by increasing accessibility to donations that remain unfamiliar. 
-
+Gather news from donation organizations in one place to make it easier for people to access the news, which keeps the users interested in these charities. We encourage users to participate in donations, charity organizations to promote themselves, and world to be a better place.  
 
 ## Technology of use
 
 
     - Flutter
-    - SpringBoot
-    - GoogleCloudPlatform
+    - Spring Boot
+    - Google Cloud Platform
     - MySQL
     - Swagger
+    - Postman
     - Notion
 
 
-## 기능 소개
-1. 기부단체 소식 제공
-<img src="https://user-images.githubusercontent.com/75655613/152624358-42623323-3b29-44f0-98a2-3b93b9c3a72d.jpeg" height=400>
-2. 기부 가능 기관 정보 제공
-<img src="https://user-images.githubusercontent.com/75655613/152624362-12a70dde-4c24-4f28-88e3-3c9bf40aadaf.jpeg" height=400 width=250>
+## Key Functions
+|Main page|Information about charities|My subscription status|
+|:-:|:-:|:-:|
+|<img src="https://user-images.githubusercontent.com/75655613/160757972-93a9d908-a92c-4723-86e8-d77b2c7d3d0f.jpeg" height=400>|<img src="https://user-images.githubusercontent.com/75655613/160757104-958a15f5-cf5e-4ea0-ae35-858088365f85.jpeg" height=400>|<img src="https://user-images.githubusercontent.com/75655613/160758090-6db73fde-13a8-4d18-9784-a3244ec3f3b9.jpeg" height=400>|
+|My donation status|My page|Search charities|
+|<img src="https://user-images.githubusercontent.com/75655613/160757506-c57f6d96-8f86-45fa-8e47-10ce03cb2363.jpeg" height=400>|<img src="https://user-images.githubusercontent.com/75655613/160758267-68d73b46-f143-4fcc-8dcd-12e1de7df740.jpeg" height=400>|<img src="https://user-images.githubusercontent.com/75655613/160758289-d527f707-64fa-487d-9731-bf45235949bf.jpeg" height=400>|
 
-## [Demo Video] (https://www.youtube.com/watch?v=sT0wWuW2aR8)
+
+## [Demo Video] 
+[![미리보기](https://img.youtube.com/vi/sT0wWuW2aR8/0.jpg)](https://youtu.be/sT0wWuW2aR8?t=3)
+
 
 
 # Contributors
