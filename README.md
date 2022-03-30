@@ -35,7 +35,7 @@ Gather news from donation organizations in one place to make it easier for peopl
 
 
 # Contributors
-- [Donghyun Shin] (https://github.com/Canihelpme)
-- [Yeonju Lee] (https://github.com/430lyj)
-- [Sunghyun Cho] (https://github.com/chosunghyun18)
-- [Minseo Kim] (https://github.com/kimwest00)
+- [Donghyun Shin](https://github.com/Canihelpme)
+- [Yeonju Lee](https://github.com/430lyj)
+- [Sunghyun Cho](https://github.com/chosunghyun18)
+- [Minseo Kim](https://github.com/kimwest00)
