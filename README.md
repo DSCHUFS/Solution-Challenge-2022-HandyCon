@@ -4,6 +4,8 @@
 We have been trying to figure out the solutions for SDGs, and started to focus on the organizations trying their best towards these goals. Unfortunately, these organizations were having hard time managing the programs they offer due to lack of budget since covid-19. <br> <br> 
 So we created our own Handycon, where you can donate to charity organizations according to your interest in sustainable development goals. 
 
+##Use our App
+[Handycon] (https://drive.google.com/file/d/13BrdqHuxta_4bGDUagJRP50Vsi12SHY-/view?usp=sharing)
 
 ## Project goal
 
