@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:flutter_try/api/isLikedapi.dart';
-import 'package:flutter_try/color.dart';
+import 'package:handycon/api/isLikedapi.dart';
+import 'package:handycon/color.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:flutter_try/api/Fcapi.dart';
+import 'package:handycon/api/Fcapi.dart';
 import '../api/ContentsApi.dart';
 import '../isLike_User.dart';
 import '../page1/HomePage.dart';

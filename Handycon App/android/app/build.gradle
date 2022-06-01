@@ -55,7 +55,7 @@ android {
     defaultConfig
             {
                 multiDexEnabled true
-                applicationId "com.example.flutter_try"
+                applicationId "com.chari_o.handycon"
                 minSdkVersion 23
                 targetSdkVersion 31
                 versionCode flutterVersionCode.toInteger()
@@ -73,8 +73,8 @@ android {
             }
 
     buildTypes {
-        release {
-            // TODO: Add your own signing config for the release build.
+        release
+                {
             signingConfig signingConfigs.release
             minifyEnabled true
             proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro")

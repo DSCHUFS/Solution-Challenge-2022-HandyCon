@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_try/color.dart';
+import 'package:handycon/color.dart';
 import '../api/Fcapi.dart';
 import '../api/SearchApi.dart';
 import '../detailPage/FcDetail.dart';

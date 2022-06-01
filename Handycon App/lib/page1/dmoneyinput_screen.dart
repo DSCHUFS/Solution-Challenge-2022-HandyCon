@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_try/api/donationpostapi.dart';
-import 'package:flutter_try/constants.dart' as colort;
-import 'package:flutter_try/page1/HomePage.dart';
+import 'package:handycon/api/donationpostapi.dart';
+import 'package:handycon/constants.dart' as colort;
+import 'package:handycon/page1/HomePage.dart';
 import 'package:intl/intl.dart';
 import '../constants.dart';
 

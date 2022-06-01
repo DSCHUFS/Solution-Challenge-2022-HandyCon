@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_try/constants.dart';
-import 'package:flutter_try/page1/donpersonal_screen.dart';
-import 'package:flutter_try/detailPage/FcDetail.dart';
+import 'package:handycon/constants.dart';
+import 'package:handycon/page1/donpersonal_screen.dart';
+import 'package:handycon/detailPage/FcDetail.dart';
 
 class DonfcdetailScreen extends StatefulWidget {
   static const String id = "donationfcdetail";

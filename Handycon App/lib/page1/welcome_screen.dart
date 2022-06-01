@@ -1,14 +1,14 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
-import 'package:flutter_try/color.dart';
-import 'package:flutter_try/page1/regisinput_screen.dart';
+import 'package:handycon/color.dart';
+import 'package:handycon/page1/regisinput_screen.dart';
 
 import '../api/FirebaseService.dart';
 import 'registration_screen.dart';
 import 'HomePage.dart';
 import '../constants.dart';
-import 'package:flutter_try/api/currentUserservice.dart';
+import 'package:handycon/api/currentUserservice.dart';
 
 class WelcomeScreen extends StatefulWidget {
   static const String id = "welcome_screen";

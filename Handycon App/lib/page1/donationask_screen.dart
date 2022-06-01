@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_try/constants.dart' as colort;
+import 'package:handycon/constants.dart' as colort;
 import 'dmoneyinput_screen.dart';
 import '../detailPage/FcDetail.dart';
 

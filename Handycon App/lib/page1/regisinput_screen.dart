@@ -3,11 +3,11 @@ import 'package:flutter/cupertino.dart';
 import '../methods/toast.dart';
 
 
-import 'package:flutter_try/page1/regissub_screen.dart';
+import 'package:handycon/page1/regissub_screen.dart';
 import 'package:flutter/services.dart';
 import '../constants.dart';
 import '../methods/validators.dart';
-import 'package:flutter_try/api/UserpostApi.dart';
+import 'package:handycon/api/UserpostApi.dart';
 import 'package:intl/intl.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 

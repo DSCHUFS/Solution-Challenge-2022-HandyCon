@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'Fcapi.dart';
-import 'package:flutter_try/constants.dart';
+import 'package:handycon/constants.dart';
 
 Future<FcJdata> fetchSearchdata(String search) async
 {

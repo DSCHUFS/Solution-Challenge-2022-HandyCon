@@ -1,8 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_try/page1/welcome_screen.dart';
+import 'package:handycon/page1/welcome_screen.dart';
 import '../constants.dart';
-import 'package:flutter_try/route_generator.dart';
+import 'package:handycon/route_generator.dart';
 
 import 'firebase_options.dart';
 

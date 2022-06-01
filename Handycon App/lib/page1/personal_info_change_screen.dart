@@ -1,8 +1,8 @@
 
-import 'package:flutter_try/page1/personal_screen.dart';
+import 'package:handycon/page1/personal_screen.dart';
 import '../constants.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_try/api/Userapi.dart';
+import 'package:handycon/api/Userapi.dart';
 
 
 

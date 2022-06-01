@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import '../api/Fcapi.dart';
-import 'package:flutter_try/methods/multi_select_dialog.dart';
+import 'package:handycon/methods/multi_select_dialog.dart';
 
 import '../api/Userapi.dart';
 import '../api/subscribePostapi.dart';

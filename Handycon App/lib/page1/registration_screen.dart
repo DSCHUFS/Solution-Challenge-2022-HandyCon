@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:firebase_auth/firebase_auth.dart' as fbs;
-import 'package:flutter_try/page1/regisinput_screen.dart';
+import 'package:handycon/page1/regisinput_screen.dart';
 import '../api/FirebaseService.dart';
 import '../constants.dart';
 import '../methods/validators.dart';

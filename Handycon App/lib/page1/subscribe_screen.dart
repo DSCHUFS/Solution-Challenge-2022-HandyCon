@@ -1,10 +1,10 @@
 import 'dart:core';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_try/constants.dart';
+import 'package:handycon/constants.dart';
 import '../api/Subscribeapi.dart';
-import 'package:flutter_try/detailPage/FcDetail.dart';
-import 'package:flutter_try/page1/HomePage.dart';
+import 'package:handycon/detailPage/FcDetail.dart';
+import 'package:handycon/page1/HomePage.dart';
 import '../constants.dart';
 
 class SubscribeScreen extends StatefulWidget {

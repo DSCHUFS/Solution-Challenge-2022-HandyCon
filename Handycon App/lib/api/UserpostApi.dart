@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'dart:io';
 import 'package:firebase_auth/firebase_auth.dart' as fbs;
-import 'package:flutter_try/constants.dart';
+import 'package:handycon/constants.dart';
 
 final _auth =fbs.FirebaseAuth.instance;
 Future<UserPostModel?> createUserpost(String u_name,String u_username,String u_phone,String u_birth)

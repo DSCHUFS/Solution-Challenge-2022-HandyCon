@@ -1,6 +1,6 @@
 import 'package:http/http.dart' as http;
 import 'package:firebase_auth/firebase_auth.dart' as fbs;
-import 'package:flutter_try/constants.dart';
+import 'package:handycon/constants.dart';
 
 class CurrentUser {
     final _auth =fbs.FirebaseAuth.instance;

@@ -2,7 +2,7 @@ import 'package:http/http.dart' as http;
 import 'dart:io';
 import '../isLike_User.dart';
 import 'package:firebase_auth/firebase_auth.dart' as fbs;
-import 'package:flutter_try/constants.dart';
+import 'package:handycon/constants.dart';
 
 Future<UserModel?> createUser(String fc_id) async
 {
