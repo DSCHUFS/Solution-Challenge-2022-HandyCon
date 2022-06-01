@@ -15,7 +15,7 @@ import 'page1/HomePage.dart';
 import 'page1/welcome_screen.dart';
 import 'page1/registration_screen.dart';
 
-
+// Factroy pattern
 class RouteGenerator{
 
   static Route<dynamic> generateRoute(RouteSettings settings)

@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'dart:io';
 import 'package:firebase_auth/firebase_auth.dart' as fbs;
+import 'package:flutter_try/constants.dart';
 
 final _auth =fbs.FirebaseAuth.instance;
 Future<UserPostModel?> createUserpost(String u_name,String u_username,String u_phone,String u_birth)
@@ -9,10 +10,10 @@ async{
   final user = await _auth.currentUser!;
   final String Authorization = user.uid as String;
   final String u_email = user.email as String;
-  const String apiUrl = "http://34.134.67.181:8080/api/user";
+  const String apiUrl = url+"user";
+
   var requestbody = jsonEncode
     ({
-
     "u_birth": u_birth,
     "u_email":  u_email,
     "u_name": u_name,

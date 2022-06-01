@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:firebase_auth/firebase_auth.dart' as fbs;
-
+import 'package:flutter_try/constants.dart';
 
 Future<UData> fetchUserJdata() async {
   final _auth =fbs.FirebaseAuth.instance;
@@ -10,7 +10,7 @@ Future<UData> fetchUserJdata() async {
   final String Authorization = user.uid as String;
 
   final response = await http.get(
-      Uri.parse("http://34.134.67.181:8080/api/user/"),
+      Uri.parse(url+"user/"),
       headers: {
         "Authorization" :Authorization,
         "Content-Type": "application/json",

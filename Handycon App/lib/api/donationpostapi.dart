@@ -1,19 +1,18 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:firebase_auth/firebase_auth.dart' as fbs;
+import 'package:flutter_try/constants.dart';
 
 class donpost
 {
         var resultc =false;
-
-        createDonation(String date, int price,String f_name)
+  createDonation(String date, int price,String f_name)
         async
         {
         final _auth =fbs.FirebaseAuth.instance;
         final user = await _auth.currentUser!;
         final String Authorization = user.uid as String;
-
-        const String apiUrl = "http://34.134.67.181:8080/api/donation";
+        const String apiUrl = url+"donation";
         var resquestbody = jsonEncode({
           "donationDate": date,
           "donationPrice": price,

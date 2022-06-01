@@ -11,3 +11,5 @@ const contentTextColor = Color(0xff868686);
 const navigationColor = Color(0xFF6751B5);
 const gradientStartColor = Color(0xff216631);
 const gradientEndColor = Color(0xff3EB489);
+
+const url = "http://34.64.244.237:8080/api/";

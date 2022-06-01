@@ -1,13 +1,14 @@
 import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import 'package:flutter_try/constants.dart';
 
-
-Future <ContentsApi>fetchContJdata(String fcId)async {
+Future <ContentsApi>fetchContJdata(String fcId)async
+{
 
   final response = await http.get
     (
-      Uri.parse("http://34.134.67.181:8080/api/facility/"+fcId),
+      Uri.parse(url+"facility/"+fcId),
       headers: {
         "Accept": "application/json",
         "Access-Control-Allow-Origin": "*"
@@ -35,7 +36,8 @@ class ContentsApi {
   {
     return ContentsApi(
       facDto: FacDto.fromJson(json["facDto"]),
-    contentsList:List<ContentsList>.from(json["contentsList"].map((x) => ContentsList.fromJson(x))));}
+    contentsList:List<ContentsList>.from(json["contentsList"].map((x) => ContentsList.fromJson(x))));
+  }
   
 
 
@@ -108,11 +110,7 @@ class ContentsList {
       url: json["url"],
       pubDate: DateTime.parse(json["pub_date"]),
     );
-
   }
-
-
-
 }
 
 
