@@ -7,20 +7,12 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:948042921782:android:2c90a5cd6954e3995fa597",
+        "mobilesdk_app_id": "1:948042921782:android:4a88ced1d12c19195fa597",
         "android_client_info": {
           "package_name": "com.chari_o.handycon"
         }
       },
       "oauth_client": [
-        {
-          "client_id": "948042921782-d0slmc8ltupi6g7vcbj5nrjpalniaqr5.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.chari_o.handycon",
-            "certificate_hash": "600e022bf7e75082d37a0848a589904a4e2a0279"
-          }
-        },
         {
           "client_id": "948042921782-jsdb5lmtqa3a5bfb8m7e4o8pq8h89ngg.apps.googleusercontent.com",
           "client_type": 3
@@ -37,6 +29,13 @@
             {
               "client_id": "948042921782-jsdb5lmtqa3a5bfb8m7e4o8pq8h89ngg.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "948042921782-nu5feuhgkur5qln79512no558e84rlp9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.chari-o.handycon"
+              }
             }
           ]
         }
