@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import '../api/Fcapi.dart';
 import 'package:handycon/methods/multi_select_dialog.dart';
-
 import '../api/Userapi.dart';
 import '../api/subscribePostapi.dart';
 import '../constants.dart';
 import 'HomePage.dart';
 
-class Regissub extends StatefulWidget {
+class Regissub extends StatefulWidget
+{
   static const String id = "regissub_screen";
   @override
   _RegissubState createState() => _RegissubState();
@@ -17,9 +17,8 @@ class Regissub extends StatefulWidget {
 class _RegissubState extends State<Regissub> {
   late Future<FcJdata> DetailFcJdata;
   late Set<String> selectedValues;
-  List<MultiSelectDialogItem<String>> items = List.generate(
-    7,
-    (index) => MultiSelectDialogItem('$index+1', 'notyet'),
+  List<MultiSelectDialogItem<String>> items = List.generate(7,
+    (index) => MultiSelectDialogItem('$index+1', 'Not yet'),
   );
 
   late List<String> namecheck = [];
@@ -106,7 +105,7 @@ class _RegissubState extends State<Regissub> {
   void initState() {
     super.initState();
     DetailFcJdata = fetchFcJdata();
-    selectedValues = {"초록우산어린이재단"};
+    selectedValues = {"ChildFundKorea"};
     makelist();
     Userform = fetchUserJdata();
   }
@@ -180,8 +179,7 @@ class _RegissubState extends State<Regissub> {
                           Expanded(
                             child: Wrap(
                               spacing: 10.0,
-                              children: selectedValues == null ||
-                                      selectedValues.length == 0
+                              children: selectedValues == null || selectedValues.length == 0
                                   ? [Container()]
                                   : selectedValues.map(
                                       (v) {

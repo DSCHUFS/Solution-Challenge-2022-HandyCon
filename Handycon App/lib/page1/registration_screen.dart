@@ -2,12 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:firebase_auth/firebase_auth.dart' as fbs;
 import 'package:handycon/page1/regisinput_screen.dart';
+import 'package:flutter_signin_button/flutter_signin_button.dart';
 import '../api/FirebaseService.dart';
 import '../constants.dart';
 import '../methods/validators.dart';
 import '../methods/toast.dart';
-import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'auth_screen.dart';
+
+
+
 
 
 class RegistrationScreen extends StatefulWidget

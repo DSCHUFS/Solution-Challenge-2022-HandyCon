@@ -3,16 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:handycon/color.dart';
 import 'package:handycon/page1/regisinput_screen.dart';
-
 import '../api/FirebaseService.dart';
 import 'registration_screen.dart';
 import 'HomePage.dart';
-import '../constants.dart';
 import 'package:handycon/api/currentUserservice.dart';
 
-class WelcomeScreen extends StatefulWidget {
+class WelcomeScreen extends StatefulWidget
+{
   static const String id = "welcome_screen";
-
   @override
   _WelcomeScreenState createState() => _WelcomeScreenState();
 }
@@ -159,16 +157,17 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             SignInButton(
               Buttons.Google,
               onPressed: () async {
+                // tr y login
                 await FirebaseService().signInwithGoogle();
                 CurrentUser cucheck = CurrentUser();
                 await cucheck.iscomplieteregis();
                 if (cucheck.checkvalide == true) {
-                  print("there is account");
+                  //there  is  login  info already
                   Navigator.pushNamedAndRemoveUntil(
                       context, HomePage.id, (route) => false);
                 } else // go to addtional sign
                     {
-                  print("no account");
+                  // no account
                   Navigator.pushNamedAndRemoveUntil(
                       context, Regisinput.id, (route) => false);
                 }

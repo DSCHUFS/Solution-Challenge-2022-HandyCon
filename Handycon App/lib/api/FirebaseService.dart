@@ -8,10 +8,8 @@ class FirebaseService
   final GoogleSignIn _googleSignIn = GoogleSignIn();
   Future<String?> signInwithGoogle() async {
     try {
-      final GoogleSignInAccount? googleSignInAccount =
-      await _googleSignIn.signIn();
-      final GoogleSignInAuthentication googleSignInAuthentication =
-      await googleSignInAccount!.authentication;
+      final GoogleSignInAccount? googleSignInAccount = await _googleSignIn.signIn();
+      final GoogleSignInAuthentication googleSignInAuthentication = await googleSignInAccount!.authentication;
       final fbs.AuthCredential credential = fbs.GoogleAuthProvider.credential(
         accessToken: googleSignInAuthentication.accessToken,
         idToken: googleSignInAuthentication.idToken,

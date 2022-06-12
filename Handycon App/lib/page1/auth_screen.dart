@@ -63,7 +63,6 @@ class _AuthPageState extends State<AuthPage>
             return;
           }
           setState(() => _firebaseUser = user);
-
           if (!isEmailVerified) {
             setState(() => _message = 'Email is not authenticated yet check your email or Please press it again');
             return;
@@ -87,10 +86,6 @@ class _AuthPageState extends State<AuthPage>
       },
     );
   }
-
-
-
-
 
   @override
   Widget build(BuildContext context) {

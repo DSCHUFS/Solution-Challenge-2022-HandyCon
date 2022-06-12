@@ -11,9 +11,7 @@ import '../page1/donationask_screen.dart';
 import 'Fc_article.dart';
 
 _launchURL(String url) async {
-
     await launch(url);
-
 }
 
 class NoPoverty extends StatefulWidget

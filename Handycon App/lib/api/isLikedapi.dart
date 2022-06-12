@@ -32,7 +32,7 @@ Future<UserModel?> deleteUser(String fc_id) async
   final user = await _auth.currentUser!;
   final String Authorization = user.uid as String;
 
-  final response = await http.delete(Uri.parse("http://34.134.67.181:8080/api/subscribe/" + fc_id),
+  final response = await http.delete(Uri.parse(url+"subscribe/" + fc_id),
     headers: {HttpHeaders.authorizationHeader: Authorization},
 
   );

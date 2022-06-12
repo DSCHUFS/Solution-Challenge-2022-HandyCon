@@ -6,7 +6,8 @@ class MultiSelectDialogItem<V> {
   late  String label;
 }
 
-class MultiSelectDialog<V> extends StatefulWidget {
+class MultiSelectDialog<V> extends StatefulWidget
+{
   MultiSelectDialog({
     required this.title,
     required this.items,

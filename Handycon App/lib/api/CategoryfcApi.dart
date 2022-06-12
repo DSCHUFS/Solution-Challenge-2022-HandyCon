@@ -6,11 +6,8 @@ Future<CateFdata> fetchCateFeJdata(String cate_id) async
 {
   final response = await http.get(
       Uri.parse(url+"category/"+ cate_id + "/facilities"),
-      headers: {
-        "Accept": "application/json",
-        "Access-Control-Allow-Origin": "*"
-      }
-  );
+      headers: {"Accept": "application/json", "Access-Control-Allow-Origin": "*"});
+
   print('CategoryFcApi ${response.statusCode}');
 
   if (response.statusCode == 200)

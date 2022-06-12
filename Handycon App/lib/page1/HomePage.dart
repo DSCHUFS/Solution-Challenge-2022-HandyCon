@@ -6,10 +6,8 @@ import 'package:handycon/page1/search_screen.dart';
 import '../api/CategoryfcApi.dart';
 import '../api/ContentsApi.dart';
 import '../color.dart';
-
 import 'package:handycon/page1/personal_screen.dart';
 import 'package:handycon/page1/subscribe_screen.dart';
-
 import 'donpersonal_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart' as fbs;
 import 'package:handycon/api/Userapi.dart';
@@ -23,7 +21,8 @@ class HomePage extends StatefulWidget {
   _MyAppState createState() => _MyAppState();
 }
 
-class _MyAppState extends State<HomePage> {
+class _MyAppState extends State<HomePage>
+{
   late Future<CateFdata> CateFeJdata;
   late Future<UData> Userform;
   String? current_cate = '1';
@@ -38,16 +37,7 @@ class _MyAppState extends State<HomePage> {
     'assets/sdg/14,15goal.png'
   ];
   List<String> category = <String>['1','2','3','4','6','10','13','14'];
-  static const goals_color = {
-    '1': sdg1,
-    '2': sdg2,
-    '3': sdg3,
-    '4': sdg4,
-    '6': sdg6,
-    '10': sdg10,
-    '13': sdg13,
-    '14': sdg14
-  };
+  static const goals_color = {'1': sdg1, '2': sdg2, '3': sdg3, '4': sdg4, '6': sdg6, '10': sdg10, '13': sdg13, '14': sdg14};
 
   late fbs.User loggedInUser;
 
@@ -65,8 +55,6 @@ class _MyAppState extends State<HomePage> {
       appBar: AppBar(
         automaticallyImplyLeading: false,
         backgroundColor: Theme.of(context).primaryColor,
-        // for custom icon option setting down below
-        // backgroundColor: mainColor,
         title: Row(
           children: [
             Image.asset("assets/logo_char.png", width: 50, height: 50),
@@ -162,7 +150,6 @@ class _MyAppState extends State<HomePage> {
           ),
         ),
       ),
-      //////////////////////////////////////////////////////////////////////////////////////////////////
       body:
       Container
         (

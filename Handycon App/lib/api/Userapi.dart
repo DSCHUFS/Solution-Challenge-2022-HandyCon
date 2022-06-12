@@ -8,13 +8,9 @@ Future<UData> fetchUserJdata() async {
   final _auth =fbs.FirebaseAuth.instance;
   final user = await _auth.currentUser!;
   final String Authorization = user.uid as String;
-
   final response = await http.get(
       Uri.parse(url+"user/"),
-      headers: {
-        "Authorization" :Authorization,
-        "Content-Type": "application/json",
-      }
+      headers: {"Authorization" :Authorization, "Content-Type": "application/json",}
   );
 
   print(response.statusCode);

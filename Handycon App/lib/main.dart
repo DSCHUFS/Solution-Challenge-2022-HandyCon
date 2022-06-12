@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:handycon/page1/welcome_screen.dart';
 import '../constants.dart';
 import 'package:handycon/route_generator.dart';
-
 import 'firebase_options.dart';
 
 
@@ -21,13 +20,13 @@ class MyApp extends StatelessWidget
 {
   const MyApp({Key? key}) : super(key: key);
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context)
+  {
     return MaterialApp(
       title:'Chari-o',
       theme: ThemeData(
         primaryColor: TeamColor,
       ),
-
       initialRoute: WelcomeScreen.id,
       onGenerateRoute: RouteGenerator.generateRoute,
     );

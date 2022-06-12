@@ -294,16 +294,16 @@ class _RegisinputState extends State<Regisinput> {
                         SizedBox(
                           height: 24.0,
                         ),
-                        SizedBox(
-                          width: double.infinity,
-                          height: 50,
-                          child: ElevatedButton(
-                            child: Text('nexttemp'),
-                            onPressed: () {
-                              Navigator.pushNamedAndRemoveUntil(context,Regissub.id, (route) => false);
-                            },
-                          ),
-                        ),
+                        // SizedBox(
+                        //   width: double.infinity,
+                        //   height: 50,
+                        //   child: ElevatedButton(
+                        //     child: Text('nexttemp'),
+                        //     onPressed: () {
+                        //       Navigator.pushNamedAndRemoveUntil(context,Regissub.id, (route) => false);
+                        //     },
+                        //   ),
+                        // ),
                       ],
                     ),
                   ),
